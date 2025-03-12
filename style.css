@@ -1,105 +1,105 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
-    margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif; /* Устанавливаем шрифт для всего документа */
+    background-color: #f8f8f8; /* Цвет фона страницы */
+    margin: 0; /* Убираем внешние отступы */
+    padding: 0; /* Убираем внутренние отступы */
 }
 
 /* Контейнер резюме */
 .resume-container {
-    width: 80%;
-    margin: 20px auto;
-    background: white;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 75%; /* Ширина контейнера */
+    margin: 80px auto; /* Центрируем контейнер по горизонтали */
+    background: white; /* Фон контейнера */
+    padding: 0px; /* Внутренний отступ */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень вокруг контейнера */
 }
 
 /* Шапка с фото и именем */
 .header {
-    display: flex;
-    align-items: center;
-    background-color: #2c3e50;
-    color: white;
-    padding: 20px;
-    width: 100%;
+    display: flex; /* Размещаем элементы в строку */
+    align-items: center; /* Выравниваем элементы по центру */
+    background-color: #2c3e50; /* Цвет фона */
+    color: white; /* Цвет текста */
+    padding: 15px; /* Внутренний отступ */
+    width: 98%; /* Полная ширина */
 }
 
 .header img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 5px;
-    margin-right: 20px;
+    width: 300px; /* Ширина изображения */
+    height: 300px; /* Высота изображения */
+    object-fit: cover; /* Обрезка изображения без искажения */
+    border-radius: 5px; /* Закругление углов */
+    margin-right: 20px; /* Отступ справа от изображения */
 }
 
 .header-info h1 {
-    margin: 0;
-    font-size: 24px;
+    margin: 0; /* Убираем отступ */
+    font-size: 24px; /* Размер шрифта */
 }
 
 .header-info p {
-    margin: 5px 0;
+    margin: 5px 0; /* Отступы сверху и снизу */
 }
 
 /* Основной контент с двумя колонками */
 .main-content {
-    display: flex;
-    margin-top: 20px;
+    display: flex; /* Размещаем колонки в строку */
+    margin-top: 20px; /* Отступ сверху */
 }
 
 /* Левая колонка (образование, работа) */
 .left-column {
-    width: 65%;
-    padding: 20px;
+    width: 65%; /* Занимает 65% ширины */
+    padding: 20px; /* Внутренний отступ */
 }
 
 /* Правая колонка (личные данные, навыки, языки) */
 .right-column {
-    width: 35%;
-    padding: 20px;
-    background: #f0f0f0;
+    width: 35%; /* Занимает 35% ширины */
+    padding: 20px; /* Внутренний отступ */
+    background: #f0f0f0; /* Светлый фон */
 }
 
-/* Заголовки */
+/* Заголовки разделов */
 h2 {
-    color: #2c3e50;
-    border-bottom: 2px solid #2c3e50;
-    padding-bottom: 5px;
+    color: #2c3e50; /* Цвет заголовка */
+    border-bottom: 2px solid #2c3e50; /* Подчеркивание заголовка */
+    padding-bottom: 5px; /* Отступ под заголовком */
 }
 
 h3 {
-    color: #2c3e50;
-    border-bottom: 2px solid #2c3e50;
-    padding-bottom: 5px;
+    color: #2c3e50; /* Цвет заголовка */
+    border-bottom: 2px solid #2c3e50; /* Подчеркивание заголовка */
+    padding-bottom: 5px; /* Отступ под заголовком */
 }
 
 /* Навыки с прогресс-барами */
 .skill {
-    margin-bottom: 10px;
+    margin-bottom: 10px; /* Отступ между навыками */
 }
 
 .skill-name {
-    font-weight: bold;
+    font-weight: bold; /* Жирный текст */
 }
 
 .skill-bar {
-    background: #ccc;
-    height: 10px;
-    border-radius: 5px;
-    overflow: hidden;
+    background: #ccc; /* Серый фон прогресс-бара */
+    height: 10px; /* Высота прогресс-бара */
+    border-radius: 5px; /* Закругление углов */
+    overflow: hidden; /* Обрезаем содержимое */
 }
 
 .skill-level {
-    height: 100%;
-    background: #2c3e50;
+    height: 100%; /* Полная высота */
+    background: #2c3e50; /* Цвет заливки прогресс-бара */
 }
 
 /* Контакты */
 .contact p {
-    margin: 5px 0;
+    margin: 5px 0; /* Отступы сверху и снизу */
 }
 
 .contact a {
-    color: #2c3e50;
-    text-decoration: none;
+    color: #2c3e50; /* Цвет ссылки */
+    text-decoration: none; /* Убираем подчеркивание */
 }
